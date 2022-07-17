@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+  padding: 17px 0;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header-navigation-item {
+  color: #000000;
+  text-decoration: none;
+}
+
+.header-navigation-item:hover {
+  color: #EF7F04;
+}
+
+.header-actions {
+  display: flex;
+  gap: 14px;
+}
+
+/* button */
+.button {
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-with-image_small {
+  gap: 13px;
+  padding: 10px 13px;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.button-with-image_big {
+  padding: 18px 34px;
+  gap: 22px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.button-orange {
+  background: #EF7F04;
+}
+
+.button-purple {
+  background: #3B3A63;
+}
